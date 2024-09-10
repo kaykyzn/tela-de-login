@@ -10,10 +10,14 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    background-image: url(img/small-zdwn9vrq-texture-pattern-black-background-wallpaper-poster-original-imaga9xsk6zkkqw2.webp);
+    background-repeat: no-reapeat;
+    background-size: cover;
 }
 
 
-.login_container{
+.login_container {
     background-color:rgb(92, 46, 92);
     padding: 20px;
     border-radius: 10px;
@@ -27,7 +31,7 @@ body{
     color: white;
 }
 
-.login_container input[type="email"],
+.login_container input[type="text"],
 input[type="password"] {
     width: 80px;
     padding: 10px ;
@@ -50,5 +54,4 @@ input[type="password"] {
 }
 .login_container input[type="submite"]:hover{
     background-color: aqua;
-
 }
